@@ -54,7 +54,9 @@ class Header2 extends Component{
 						<div className="container clearfix">
 							
 							<div className="logo-header mostion">
-								<Link to={"./"}><img src={require('./../../images/logo.png')} className="logo" alt="" /></Link>
+								{/*<Link to={"./"}><img src={require('./../../images/logo.png')} className="logo" alt="" /></Link>*/}
+								<Link to={"/"}><h4 style = {{color:"#23B5B5"}}>HireEasi</h4></Link>
+
 							</div>
 							
 							<button className="navbar-toggler collapsed navicon justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,36 +76,28 @@ class Header2 extends Component{
 							<div className="header-nav navbar-collapse collapse myNavbar justify-content-start" id="navbarNavDropdown">
 								<ul className="nav navbar-nav">
 									<li className="active">
-										<Link to={"#"}>Home <i className="fa fa-chevron-down"></i></Link>
-										<ul className="sub-menu">
+										<Link to={"index-2"}>Home <i className="fa fa-chevron-down"></i></Link>
+										{/*<ul className="sub-menu">
 											<li><Link to={"/"} className="dez-page">Home 1</Link></li>
 											<li><Link to={"index-2"} className="dez-page">Home 2</Link></li>
-										</ul>
+										</ul>*/}
 									</li>
 									<li>
 										<Link to={"#"}>For Candidates <i className="fa fa-chevron-down"></i></Link>
 										<ul className="sub-menu">
 											<li><Link to={"/jobs-profile"} className="dez-page">My Profile<span className="new-page">New</span></Link></li>
-											<li><Link to={"/jobs-my-resume"} className="dez-page">My Resume <span className="new-page">New</span></Link></li>
-											<li><Link to={"/jobs-applied-job"} className="dez-page">Applied Job <span className="new-page">New</span></Link></li>
-											<li><Link to={"/jobs-alerts"} className="dez-page">Jobs Alerts <span className="new-page">New</span></Link></li>
-											<li><Link to={"/jobs-saved-jobs"} className="dez-page">Saved Job <span className="new-page">New</span></Link></li>
-											<li><Link to={"/jobs-cv-manager"} className="dez-page">CV Manager <span className="new-page">New</span></Link></li>
-											<li><Link to={"/jobs-change-password"} className="dez-page">Change Password <span className="new-page">New</span></Link></li>
 										</ul>
 									</li>
 									<li>
 										<Link to={"#"}>For Employers <i className="fa fa-chevron-down"></i></Link>
 										<ul className="sub-menu">
 											<li><Link to={"/company-profile"} className="dez-page">Company Profile <span className="new-page">New</span></Link></li>
-											<li><Link to={"/company-resume"} className="dez-page">Employer Resume <span className="new-page">New</span></Link></li>
 											<li><Link to={"/company-post-jobs"} className="dez-page">Post A Jobs <span className="new-page">New</span></Link></li>
-											<li><Link to={"/company-manage-job"} className="dez-page">Manage jobs <span className="new-page">New</span></Link></li>
-											<li><Link to={"/company-transactions"} className="dez-page">Transactions <span className="new-page">New</span></Link></li>
-											<li><Link to={"/browse-candidates"} className="dez-page">Browse Candidates</Link></li>
 										</ul>
 									</li>
+										{/*
 									<li>
+
 										<Link to={"#"}>Pages <i className="fa fa-chevron-down"></i></Link>
 										<ul className="sub-menu">
 											<li><Link to={"/about-us"} className="dez-page">About Us</Link></li>
@@ -150,7 +144,9 @@ class Header2 extends Component{
 											<li><Link to={"/contact"} className="dez-page">Contact Us</Link></li>
 										</ul>
 									</li>
-									<li>
+
+									*/}
+									{/*<li>
 										<Link to={"#"}>Blog <i className="fa fa-chevron-down"></i></Link>
 										<ul className="sub-menu">
 											<li><Link to={"/blog-classic"} className="dez-page">Classic</Link></li>
@@ -160,7 +156,7 @@ class Header2 extends Component{
 											<li><Link to={"/blog-left-img"} className="dez-page">Left Image Sidebar</Link></li>
 											<li><Link to={"/blog-details"} className="dez-page">Blog Details</Link></li>
 										</ul>
-									</li>
+									</li>*/}
 								</ul>			
 							</div>
 						</div>

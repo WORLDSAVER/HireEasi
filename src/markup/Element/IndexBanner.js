@@ -33,7 +33,7 @@ class IndexBanner extends Component{
 				<div className="container">
 					<div className="dez-bnr-inr-entry align-m">
 						<div className="find-job-bx">
-							<Link to={"/browse-job"} className="site-button button-sm">Find Jobs, Employment & Career Opportunities</Link>
+							<Link to={"/browse-job"} className="site-button button-sm" style = {{backgroundColor:"#23B5B5"}}>Jobs are Enough.</Link>
 							<h2>Search Between More Then <br/> <span className="text-primary">50,000</span> Open Jobs.</h2>
 							<form className="dezPlaceAni">
 								<div className="row">

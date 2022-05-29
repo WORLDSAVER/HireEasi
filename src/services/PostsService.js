@@ -1,3 +1,5 @@
+
+
 import axiosInstance from '../services/AxiosInstance';
 
 export function getPosts() {
@@ -24,3 +26,5 @@ export function formatPosts(postsData) {
 
     return posts;
 }
+
+

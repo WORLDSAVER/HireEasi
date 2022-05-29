@@ -66,7 +66,7 @@ function Homepage2(){
 						<Owltestimonial />
 					</div>
 				</div>
-				<div className="section-full content-inner-2 overlay-white-middle">
+				{/*<div className="section-full content-inner-2 overlay-white-middle">
 					<div className="container">
 						<div className="section-head text-black text-center">
 							<h2 className="text-uppercase m-b0">Our Latest Blog</h2>
@@ -74,7 +74,7 @@ function Homepage2(){
 						</div>
 						<Latestblogowl />
 					</div>
-				</div>	
+				</div>	*/}
 			</div>
 			<Footer />
 		</>	

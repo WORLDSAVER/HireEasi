@@ -6,6 +6,7 @@ import PageTitle from './../Layout/PageTitle';
 
 var bnr = require('./../../images/banner/bnr2.jpg');
 
+
 function Register1(){
 	return(
 		<>

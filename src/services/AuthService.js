@@ -27,7 +27,7 @@ export function login(email, password) {
     return axios.post(
         `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyD3RPAp3nuETDn9OQimqn_YF6zdzqWITII`,
         postData,
-    );
+    )
 }
 
 export function formatError(errorResponse) {

@@ -25,7 +25,8 @@ export function signupAction(email, password, history) {
                 history,
             );
             dispatch(confirmedSignupAction(response.data));
-            history.push('/home');
+            //history.push('/home');
+            history.push('/index-2');
         })
         .catch((error) => {
             const errorMessage = formatError(error.response.data);
@@ -46,6 +47,7 @@ export function loginAction(email, password, history) {
     return (dispatch) => {
         login(email, password)
             .then((response) => {
+                console.log(response.data);
                 saveTokenInLocalStorage(response.data);
                 runLogoutTimer(
                     dispatch,
@@ -53,7 +55,8 @@ export function loginAction(email, password, history) {
                     history,
                 );
                 dispatch(loginConfirmedAction(response.data));
-				history.push('/home');                
+				//history.push('/home'); 
+                history.push('/index-2');               
             })
             .catch((error) => {
 				//console.log(error);

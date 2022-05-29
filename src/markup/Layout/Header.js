@@ -21,6 +21,8 @@ class Header extends Component{
 	};	
 	componentDidMount() {
         // sidebar open/close
+
+        document.title = "Hire Easi"
 		
         var Navicon = document.querySelector('.navicon');
         var sidebarmenu = document.querySelector('.myNavbar ');
@@ -55,7 +57,9 @@ class Header extends Component{
 							<div className="container clearfix">
 								
 								<div className="logo-header mostion">
-									<Link to={"/"}><img src={logo2} className="logo" alt="img" /></Link>
+									{/* <img src={logo2} className="logo" alt="img" /> */}
+									<Link to={"/"}><h4 style = {{color:"#23B5B5"}}>HireEasi</h4></Link>
+									
 								</div>
 								
 								 <button className="navbar-toggler collapsed navicon  justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,36 +83,39 @@ class Header extends Component{
 									<ul className="nav navbar-nav">
 										<li className=""> 
 										
-											<Link to={'#'} >Home <i className="fa fa-chevron-down"></i></Link>
+											<Link to={"/index-2"} >Home </Link>
+											{/*
+											<i className="fa fa-chevron-down"></i>
 											<ul className="sub-menu">
 												<li><Link to={"./"} className="dez-page">Home 1</Link></li>
 												<li><Link to={"/index-2"} className="dez-page">Home 2</Link></li>
-											</ul>
+											</ul>*/}
 										</li>
 										<li >
 											<Link to={'#'} >For Candidates <i className="fa fa-chevron-down"></i></Link>
 											<ul className="sub-menu">
 												<li><Link to={"/jobs-profile"} className="dez-page">My Profile<span className="new-page">New</span></Link></li>
-												<li><Link to={"/jobs-my-resume"} className="dez-page">My Resume <span className="new-page">New</span></Link></li>
+												{/*<li><Link to={"/jobs-my-resume"} className="dez-page">My Resume <span className="new-page">New</span></Link></li>
 												<li><Link to={"/jobs-applied-job"} className="dez-page">Applied Job <span className="new-page">New</span></Link></li>
 												<li><Link to={"/jobs-alerts"} className="dez-page">Jobs Alerts <span className="new-page">New</span></Link></li>
 												<li><Link to={"/jobs-saved-jobs"} className="dez-page">Saved Job <span className="new-page">New</span></Link></li>
 												<li><Link to={"/jobs-cv-manager"} className="dez-page">CV Manager <span className="new-page">New</span></Link></li>
-												<li><Link to={"/jobs-change-password"} className="dez-page">Change Password <span className="new-page">New</span></Link></li>
+										<li><Link to={"/jobs-change-password"} className="dez-page">Change Password <span className="new-page">New</span></Link></li>*/}
 											</ul>
 										</li>
 										<li >
 											<Link to={'#'} >For Employers <i className="fa fa-chevron-down"></i></Link>
 											<ul className="sub-menu">
 												<li><Link to={"/company-profile"} className="dez-page">Company Profile <span className="new-page">New</span></Link></li>
-												<li><Link to={"/company-resume"} className="dez-page">Employer Resume <span className="new-page">New</span></Link></li>
 												<li><Link to={"/company-post-jobs"} className="dez-page">Post A Jobs <span className="new-page">New</span></Link></li>
-												<li><Link to={"/company-manage-job"} className="dez-page">Manage jobs <span className="new-page">New</span></Link></li>
+												{/*<li><Link to={"/company-manage-job"} className="dez-page">Manage jobs <span className="new-page">New</span></Link></li>
 												<li><Link to={"/company-transactions"} className="dez-page">Transactions <span className="new-page">New</span></Link></li>
 												<li><Link to={"/browse-candidates"} className="dez-page">Browse Candidates</Link></li>
+												<li><Link to={"/company-resume"} className="dez-page">Employer Resume <span className="new-page">New</span></Link></li>
+												*/}
 											</ul>
 										</li>
-										<li>
+										{/*<li>
 											<Link to={'#'}>Pages <i className="fa fa-chevron-down"></i></Link>
 											<ul className="sub-menu">
 												<li><Link to={"/about-us"} className="dez-page">About Us</Link></li>
@@ -139,13 +146,13 @@ class Header extends Component{
 														
 													</ul>
 												</li>
-												{/* <li><Link to={'#'} className="dez-page">Login <i className="fa fa-angle-right"></i></Link>
+												<li><Link to={'#'} className="dez-page">Login <i className="fa fa-angle-right"></i></Link>
 													<ul className="sub-menu">
 														<li><Link to={"/login"} className="dez-page">login 1</Link></li>
 														<li><Link to={"/login-2"} className="dez-page">login 2 <span className="new-page">New</span></Link></li>
 														<li><Link to={"/login-3"} className="dez-page">login 3 <span className="new-page">New</span></Link></li>
 													</ul>
-												</li> */}
+												</li> 
 												<li><Link to={'#'} className="dez-page">register <i className="fa fa-angle-right"></i></Link>
 													<ul className="sub-menu">
 														<li><Link to={"/register"} className="dez-page">register 1</Link></li>
@@ -156,8 +163,8 @@ class Header extends Component{
 												
 												<li><Link to={"/contact"} className="dez-page">Contact Us</Link></li>
 											</ul>
-										</li>
-										<li>
+										</li> */}
+										{/*<li>
 											<Link to={'#'}>Blog <i className="fa fa-chevron-down"></i></Link>
 											<ul className="sub-menu">
 												<li><Link to={"/blog-classic"} className="dez-page">Classic</Link></li>
@@ -167,7 +174,7 @@ class Header extends Component{
 												<li><Link to={"/blog-left-img"} className="dez-page">Left Image Sidebar</Link></li>
 												<li><Link to={"/blog-details"} className="dez-page">Blog Details</Link></li>
 											</ul>
-										</li>
+										</li>*/}
 									</ul>			
 								</div>
 							</div>
