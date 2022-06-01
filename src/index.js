@@ -8,7 +8,8 @@ import {store} from './store/store';
 import reportWebVitals from "./reportWebVitals";
 import SimpleReactLightbox from "simple-react-lightbox";
 
-//ReactDOM.render(<App />, document.getElementById('root')); react/demo
+ReactDOM.render(<App />, document.getElementById('root')); 
+// react/demo
 
 ReactDOM.render(
 	<React.StrictMode>
